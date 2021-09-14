@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <div class="nav-container" id="home">
+        <button class="nav-btn cart">
+          <i class="fas fa-shopping-cart"></i>
+          <p class="p-value">1</p>
+        </button>
+        <!--nav links container-->
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="./index.html" data-id="home">Home</a>
+            </li>
+            <li class="nav-link">
+              <a href="./products.html" data-id="products">Products</a>
+            </li>
+            <li class="nav-link">
+              <a href="index.html#about" data-id="about">About us</a>
+            </li>
+            <li class="nav-link">
+              <a href="index.html#reviews" data-id="reviews">Reviews</a>
+            </li>
+            <li class="nav-link">
+              <a href="index.html#faq" data-id="faq">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-icon">
+          <img src="./svg.png" alt="" />
+        </div>
+        <h2 class="nav-title">Guitars store</h2>
+        <button class="nav-btn nav">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="links-container">
+      <ul class="links">
+        <li class="nav-link link"><a href="./index.html">Home</a></li>
+        <li class="nav-link link">
+          <a href="./products.html" data-id="products">Products</a>
+        </li>
+        <li class="nav-link link">
+          <a href="index.html#about" data-id="about">About Us</a>
+        </li>
+        <li class="nav-link link">
+          <a href="index.html#reviews" data-id="reviews">Reviews</a>
+        </li>
+        <li class="nav-link link">
+          <a href="index.html#faq" data-id="faq">FAQ</a>
+        </li>
+      </ul>
+    </div>
+    <!-- hero -->
+    <div class="hero-container">
+      <div class="hero-information">
+        <h1>best brands on the planet!</h1>
+        <p>music to your ears</p>
+        <div class="underline"></div>
+        <button class="explore-btn" data-id="featured">
+          <a href="#featured" class="nav-link link explore" data-id="featured"
+            >Explore</a
+          >
+        </button>
+      </div>
+    </div>
+    <!--cart-->
+    <aside>
+      <div class="cart-overlay">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h2 class="cart-title">Your bag</h2>
+
+        <div class="items-container">
+          <!--poner siempre un items container en el cart para evitar quilombos-->
+        </div>
+
+        <footer>
+          <h2 class="cart-title checkout">checkout : $250</h2>
+        </footer>
+      </div>
+    </aside>
+    <!-- about section -->
+    <section id="about">
+      <h1 class="section-title"><span>/</span> about us</h1>
+      <div class="underline"></div>
+      <div class="section-center about">
+        <div class="about-img-container">
+          <img src="./about.jpeg" class="about-img" alt="" />
+        </div>
+
+        <div class="about-info-container">
+          <div class="about-btn-container">
+            <button class="about-btn active" id="goals" data-id="goals">
+              goals
+            </button>
+            <button class="about-btn" data-id="vision">vision</button>
+            <button class="about-btn" data-id="achivements">achivements</button>
+          </div>
+          <div class="about-specific-container active" id="goals">
+            <h4 class="about-sub-title">goals</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magni
+            alias provident soluta iure tempore esse molestiae quibusdam
+            architecto sed. Corrupti reprehenderit illo sint! Ab temporibus
+            voluptate fugiat, obcaecati laudantium exercitationem, similique
+            omnis, maiores harum nam beatae? Voluptatem, laborum quos!
+          </div>
+          <div class="about-specific-container" id="vision">
+            <h4 class="about-sub-title">vision</h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quia
+            harum dolorem quo voluptatem odit nam facere rerum quam itaque sit
+            placeat excepturi officiis debitis explicabo, reiciendis suscipit
+            assumenda repellat perferendis esse, amet libero porro accusantium!
+            Tenetur consectetur blanditiis eum velit. Repellendus commodi cumque
+            quis totam sequi officiis debitis vel.
+          </div>
+          <div class="about-specific-container" id="achivements">
+            <h4 class="about-sub-title">achivements</h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla magni
+            alias provident soluta iure tempore esse molestiae quibusdam
+            architecto sed. Corrupti reprehenderit illo sint! Ab temporibus
+            voluptate fugiat, obcaecati laudantium exercitationem, similique
+            omnis, maiores harum nam beatae? Voluptatem, laborum quos!
+            <ul class="achivements-list">
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Eligendi, fugiat.
+              </li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+            </ul>
+          </div>
+          <!--end of specific info-->
+        </div>
+      </div>
+    </section>
+    <!-- products -->
+    <section id="featured">
+      <div class="section-center featured">
+        <h2 class="section-title featured"><span>/</span> featured brands</h2>
+        <div class="products-container"></div>
+        <!--Added with js-->
+        <a href="products.html#products"
+          ><button class="all-products-btn">Products</button></a
+        >
+      </div>
+    </section>
+    <!-- reviews -->
+    <section id="reviews">
+      <div class="section-center">
+        <h2 class="section-title reviews"><span>/</span> reviews</h2>
+        <div class="review-container">
+          <img src="./fender.jpg" class="review-img" alt="" />
+          <div class="review-info">
+            <h4 class="review-title">Jim Mckensy</h4>
+            <p class="review-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Veritatis beatae, unde temporibus facilis officia, possimus
+              accusamus quo, dolores cumque corporis consequatur! Non beatae
+              veritatis nisi. Odio nostrum suscipit vitae error.
+            </p>
+          </div>
+          <div class="review-btns">
+            <button class="prev-btn review-btn">
+              <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="next-btn review-btn">
+              <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of reviews-->
+    <!--FAQ-->
+    <section id="faq">
+      <div class="section-center">
+        <h2 class="section-title faq"><span>/</span> FAQ</h2>
+        <div class="questions-container">
+          <!--single question-->
+          <article class="single-question">
+            <div class="question-head">
+              <h4 class="question-title">
+                Do you take all mayor credit cards?
+              </h4>
+              <button class="question-btn">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="answer">
+              <p class="answer-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                aut itaque reprehenderit, incidunt dolorem excepturi nemo!
+                Dolores facere maxime repellat, voluptatibus earum odit amet,
+                suscipit eum explicabo nobis expedita quibusdam.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!--single question-->
+          <article class="single-question">
+            <div class="question-head">
+              <h4 class="question-title">do you have a return policy?</h4>
+              <button class="question-btn">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="answer">
+              <p class="answer-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                illum reiciendis ea laudantium voluptate accusamus. Vitae
+                cupiditate et nam dolorum accusamus dolore, inventore iure
+                nesciunt suscipit at, perspiciatis, minus consequatur ullam.
+                Cupiditate architecto quae saepe animi nisi labore. Adipisci,
+                suscipit.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+          <!--single question-->
+          <article class="single-question">
+            <div class="question-head">
+              <h4 class="question-title">Does products have guarantee?</h4>
+              <button class="question-btn">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <div class="answer">
+              <p class="answer-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+                placeat similique suscipit, architecto aspernatur molestiae
+                nihil odit beatae, adipisci quia commodi consequatur nisi
+                sapiente! Et iure, excepturi eligendi eum ad a velit porro
+                delectus molestias accusantium ab? Laudantium molestias
+                distinctio quos explicabo soluta adipisci voluptatibus iusto!
+                Explicabo.
+              </p>
+            </div>
+          </article>
+          <!-- end of single question -->
+        </div>
+      </div>
+    </section>
+    <!-- end of FAQ-->
+    <!--footer-->
+    <footer id="footer">
+      <div class="section-center">
+        <h2 class="section-title footer">
+          <span class="footer-span">/</span> contact us
+        </h2>
+      </div>
+      <div class="footer-btn-container">
+        <a href="" class="footer-btn">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="" class="footer-btn"><i class="fab fa-twitter"></i></a>
+        <a href="" class="footer-btn"><i class="fab fa-instagram"></i></a>
+      </div>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

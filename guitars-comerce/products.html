@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <div class="nav-container">
+        <button class="nav-btn cart">
+          <i class="fas fa-shopping-cart"></i>
+          <p class="p-value">1</p>
+        </button>
+        <!--nav links container-->
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="./index.html">Home</a></li>
+          </ul>
+        </div>
+        <div class="nav-icon">
+          <img src="./svg.png" alt="" />
+        </div>
+        <h2 class="nav-title">Guitars store</h2>
+        <button class="nav-btn nav">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="links-container">
+      <ul class="links">
+        <li class="link"><a href="./index.html">home</a></li>
+      </ul>
+    </div>
+    <!-- hero -->
+    <!-- <div class="hero-container">
+      <div class="hero-information">
+        <h1>best brands on the planet!</h1>
+        <p>music to your ears</p>
+        <div class="underline"></div>
+        <button class="explore-btn">explore</button>
+      </div>
+    </div> -->
+    <!--cart-->
+    <aside>
+      <div class="cart-overlay">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <h2 class="cart-title">Your bag</h2>
+
+        <div class="items-container">
+          <!--poner siempre un items container en el cart para evitar quilombos-->
+        </div>
+
+        <footer>
+          <h2 class="cart-title checkout">checkout : $250</h2>
+        </footer>
+      </div>
+    </aside>
+    <!--products section-->
+    <section id="products">
+      <div class="section-title">/ Products</div>
+      <div class="section-center all-products">
+        <div class="filters-container">
+          <div class="filter-container">
+            <input
+              type="text"
+              placeholder="search product..."
+              class="search-filter"
+            />
+            <div class="list-container">
+              <ul class="brands">
+                <li>
+                  <button class="filter-brand-btn" data-id="all">all</button>
+                </li>
+                <li>
+                  <button class="filter-brand-btn" data-id="ibanez">
+                    ibanez
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-brand-btn" data-id="dean">dean</button>
+                </li>
+                <li>
+                  <button class="filter-brand-btn" data-id="fender">
+                    fender
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <input
+              type="range"
+              class="price-filter"
+              min="0"
+              value="50"
+              max="80"
+            />
+            <p class="price-value">value : $80</p>
+          </div>
+        </div>
+
+        <div class="all-products-container"></div>
+        <!--added with js-->
+      </div>
+    </section>
+
+    <script src="./utils/pages/products.js" type="module"></script>
+  </body>
+</html>

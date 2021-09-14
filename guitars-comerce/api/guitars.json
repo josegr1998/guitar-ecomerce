@@ -1,0 +1,204 @@
+[
+  {
+    "id": 0,
+    "name": "AZ Prestige",
+    "brand": "ibanez",
+    "price": "200000",
+    "img": [
+      "https://files2.soniccdn.com/files/2020/04/02/Ibanez%20AZ2202A%20Prestige1.png",
+      "https://files2.soniccdn.com/images/articles/original/8843.jpg",
+      "https://www.gearnews.es/wp-content/uploads/2021/01/ibanez-az-series-az24027-7-string.jpg",
+      "https://m.media-amazon.com/images/I/71aLXs7t85L.jpg"
+    ],
+    "specs": [
+      "Seymour Duncan Magic Touch-mini / Alnico II Pro Custom pickups",
+      "Gotoh F1803 bridge",
+      "dyna-MIX5 switching system with Alter Switch",
+      "Gotoh/Ibanez co-designed in-tune saddles",
+      "Steel pickup plate",
+      "Control plate specially designed for AZS series",
+      "S-TECH WOOD Roasted Maple fretboard w/Abalone dot inlay"
+    ],
+    "color": ["black"]
+  },
+  {
+    "id": 1,
+    "name": "AZS2209H prestige",
+    "brand": "ibanez",
+    "price": "190000",
+
+    "img": [
+      "https://www.guitar-lounge.at/images/product_images/original_images/p_region_AZS2209H_TFB_00_01.png",
+      "https://media.sweetwater.com/api/i/q-82__ha-f9b8beb72136a192__hmac-45c610e57be827437fb2e8ac49228ee39d4d75bf/images/items/750/AZS2209HTFB-large.jpg",
+      "https://media.musiciansfriend.com/is/image/MMGS7/AZS2209H-AZS-Prestige-Electric-Guitar-Prussian-Blue-Metallic/L82624000001000-00-500x500.jpg",
+      "https://www.ibanez.com/common/product_artist_file/file/p_region_AZS2209H_PBM_00_01_sub_1.jpg"
+    ],
+    "specs": [
+      "AZ Oval CS-TECH WOOD Roasted Maple neck",
+      "Ash body",
+      "S-TECH WOOD Roasted Maple fretboardBlack dot inlay",
+      "Jumbo Stainless Steel fretsPrestige fret edge treatment",
+      "Gotoh F1803 bridge",
+      "Seymour Duncan Magic Touch-mini (H) neck pickupPassive/Alnico",
+      "Seymour Duncan® Alnico II Pro™ Custom (S) bridge pickupPassive/Alnico"
+    ],
+    "color": ["black", "blue"]
+  },
+  {
+    "id": 2,
+    "name": "AZS2200 prestige",
+    "brand": "ibanez",
+    "price": "210000",
+
+    "img": [
+      "https://www.promusictools.com/media/catalog/product/cache/1/image/1352x901/bd5be3e4bffe87df985139cc5e5c836c/a/z/azs2200_bk_00_01_a.jpg",
+      "https://www.ibanez.com/common/product_artist_file/file/p_region_AZS2200_BK_00_01_sub_1.jpg",
+      "https://images.musicstore.de/images/1280/ibanez-azs2200-bk-prestige-black-_1_GIT0055975-000.jpg",
+      "https://media.sweetwater.com/api/i/q-82__ha-6281d358ce088cb5__hmac-d08e44f5c42262d42737ca0161696cbf27baa5ec/images/closeup/750-AZS2200BK_back.jpg"
+    ],
+    "specs": [
+      "AZ Oval CS-TECH WOOD Roasted Maple neck",
+      "Alder body",
+      "S-TECH WOOD Roasted Maple fretboardAbalone dot inlay",
+      "Jumbo Stainless Steel fretsPrestige fret edge treatment",
+      "Gotoh T1802 tremolo bridge",
+      "Seymour Duncan Magic Touch-mini (H) neck pickupPassive/Alnico",
+      "Seymour Duncan Alnico II Pro Custom (S) bridge pickupPassive/Alnico"
+    ],
+    "color": ["black"]
+  },
+  {
+    "id": 3,
+    "name": "USA TIME CAPSULE CADILLAC",
+    "brand": "dean",
+    "price": "190000",
+
+    "img": [
+      "https://armadillo.sirv.com/assets/web/feature/usatccadi.png?w=640&format=webp&q=80&subsampling=4:2:0",
+      "https://pics.armadilloent.com/assets/600/usatccadi.jpg",
+      "https://www.barryrudolph.com/ingear/gear/graphics/deancadillac.gif",
+      "https://i.pinimg.com/736x/f8/70/47/f8704778431e2fc636b88477dc0c6e05--time-capsule-cadillac.jpg"
+    ],
+    "specs": [
+      "Tuners Grover",
+      "Knobs Speed Black",
+      "Hardware Color Hardware Color Options Available",
+      "Bridge Tune-O-Matic (Hardtail)",
+      "Pickup (Neck) USA DMT Nostalgia",
+      "Pickup (Bridge) USA DMT Baker Act",
+      "Country of Origin USA"
+    ],
+    "color": ["black", "blue", "yellow"]
+  },
+  {
+    "id": 4,
+    "name": "MD 24 SELECT FLOYD CLASSIC WHITE",
+    "brand": "dean",
+    "price": "195000",
+
+    "img": [
+      "https://www.gearnews.es/wp-content/uploads/2020/06/dean-md-select-custom-241400x1050-1392x1044-2.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUy7HNUeBcJ2L7j93Lmb2Wg8KlFg0XBkCCVbk3ym-I7SwLya6nVRcqAHrFg6SlbAfZ1OY&usqp=CAU",
+      "https://d1aeri3ty3izns.cloudfront.net/media/67/673193/600/preview.jpg",
+      "https://d1aeri3ty3izns.cloudfront.net/media/67/673196/600/preview.jpg"
+    ],
+    "specs": [
+      "Tuners Grover",
+      "Knobs Dome Black",
+      "Hardware Color Black",
+      "Bridge Floyd Rose 1000 (Korean)",
+      "Pickup (Neck) Seymour Duncan APH-1 Custom Zebra",
+      "Pickup (Bridge) Seymour Duncan TB-5 Custom Zebra",
+      "Finish Classic White"
+    ],
+    "color": ["white"]
+  },
+  {
+    "id": 5,
+    "name": "USA ML DIME CLASSIC BLACK",
+    "brand": "dean",
+    "price": "225000",
+
+    "img": [
+      "https://pics.armadilloent.com/assets/640/usamldimecbk.png",
+      "https://d1aeri3ty3izns.cloudfront.net/media/65/651784/600/preview.jpg",
+      "https://pics.armadilloent.com/assets/600/usamldimecbk.jpg",
+      "https://media.guitarcenter.com/is/image/MMGS7//USA-Dime-ML-Electric-Guitar-Classic-Black/L86137000001000-00-1600x1600.jpg"
+    ],
+    "specs": [
+      "Tuners Grover 18:1",
+      "Knobs DBD Traction (Black)",
+      "Hardware Color Black",
+      "Bridge Floyd Rose Original TOP MOUNT (German)",
+      "Pickup (Neck) USA DMT DimeTime BK/CR",
+      "Pickup (Bridge) Seymour Duncan SH-13 Dimebucker",
+      "Finish Classic Black"
+    ],
+    "color": ["black"]
+  },
+  {
+    "id": 6,
+    "name": "AMERICAN PROFESSIONAL II TELECASTER",
+    "brand": "fender",
+    "price": "325000",
+
+    "img": [
+      "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0113962718_fen_ins_frt_1_rr.jpg",
+      "https://cdn.shopify.com/s/files/1/0266/8534/1738/products/62091341_2_700x700.jpg?v=1613845431",
+      "https://www.woodbrass.com/images/SQUARE400/woodbrass/FMIC+0113942750.JPG",
+      "https://eusica.mx/product/image/medium/0113942706_fender_tele_pro_ii_1.jpg"
+    ],
+    "specs": [
+      "Dos pastillas Telecaster de bobina simple V-Mod II",
+      "Nuevo puente Telecaster de carga superior / cuerdas a través con selletas de latón compensadas bullet",
+      "Perfil de mástil profundo en forma de C con bordes de diapasón redondeados",
+      "Cejilla de hueso; 22 trastes altos y estrechos para facilitar los bendings",
+      "El circuito Treble Bleed mantiene los agudos al reducir el volumen",
+      "Incluye estuche rígido Elite Molded"
+    ],
+    "color": ["green", "white", "black"]
+  },
+  {
+    "id": 7,
+    "name": "NOVENTA TELECASTER",
+    "brand": "fender",
+    "price": "250000",
+
+    "img": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmI6W7deq-gwYJlk_6BTRMnKDy0HtaYhNjyrC23qHq9tyU6pKnJwfxptFAQQtAWdlb2OQ&usqp=CAU",
+      "https://cdn.shopify.com/s/files/1/0253/8618/8834/products/6a3ec5dbbcbb_14693fd5-7c3b-40de-bc57-5dab83c952cc_480x480@2x.jpg?v=1625862378",
+      "https://eddiesguitars.com/media/catalog/product/cache/1/thumbnail/1200x/17f82f742ffe127f42dca9de82fb58b1/f/e/fender_1_001_149.jpg",
+      "https://img.kytary.com/eshop_ie/velky_v2/na/637460486283200000/78342e16/64813260/fender-noventa-telecaster-mn-vb.jpg"
+    ],
+    "specs": [
+      "Pastilla de puente de bobina simple Noventa",
+      "Mástil de arce en forma de C de los años 60",
+      "Diapasón de arce o pau ferro de radio de 9,5 ",
+      "21 trastes medium jumbo para facilitar los bendings",
+      "Puente Telecaster Cut con 3 silletas de latón"
+    ],
+    "color": ["yellow", "red"]
+  },
+  {
+    "id": 8,
+    "name": "CHRISSIE HYNDE TELECASTER",
+    "brand": "fender",
+    "price": "270000",
+
+    "img": [
+      "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0140310783_fen_ins_frt_1_rr.jpg",
+      "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0140310783_fen_ins_fbd_1_nr.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDiwEAy2bGy2ROlrYXyGSF-T4Am8rsit9w6Aw3AJsMHJdXeA-xbko7Zwxr-ANujk2UXS8&usqp=CAU",
+      "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0140310783_fen_ins_bck_1_rl.jpg"
+    ],
+    "specs": [
+      "Cuerpo de aliso en acabado Faded Ice Blue Metallic Road Worn ",
+      "Mástil de arce personalizado en forma de C de mediados de los 60 con diapasón de palisandro de radio de 7.25 ",
+      "Pastillas de bobina simple Chrissie Hynde personalizadas ",
+      "Golpeador de espejo cromado",
+      "Puente Tele Fender de estilo vintage con 6 selletas",
+      "Herrajes Road Worn "
+    ],
+    "color": ["blue"]
+  }
+]

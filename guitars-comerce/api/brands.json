@@ -1,0 +1,5 @@
+[
+  { "id": 0, "brand": "Dean", "pos": "first" },
+  { "id": 1, "brand": "Ibanez", "pos": "second" },
+  { "id": 2, "brand": "Fender", "pos": "third" }
+]
